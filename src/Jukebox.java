@@ -29,9 +29,9 @@ public class Jukebox implements Runnable {
 
 		// 3. Find an mp3 on your computer or on the Internet.
 		// 4. Create a Song
-
+        	 Song song = new Song("");
 		// 5. Play the Song
-
+        	 song.play();
 		/*
 		 * 6. Create a user interface for your Jukebox so that the user can to
 		 * choose which song to play. You can use can use a different button for
@@ -39,6 +39,7 @@ public class Jukebox implements Runnable {
 		 * cover is clicked, stop the currently playing song, and play the one
 		 * that was selected.
 		 */
+        	 loadImage("");
           }
 	/* Use this method to add album covers to your Panel. */
 	private JLabel loadImage(String fileName) {

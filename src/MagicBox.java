@@ -36,6 +36,10 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 	public static void main(String[] args) throws Exception {
 		SwingUtilities.invokeLater(new MagicBox());
 		
+		MagicBox magicBox = new MagicBox();
+		addMouseListener();
+		
+		MediaPalace mediaPalace = new MediaPalace();
 		
 	}
 
@@ -75,7 +79,7 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Clicked!");
 	}
 
 	@Override
